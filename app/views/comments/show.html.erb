@@ -11,6 +11,8 @@
 <%= link_to("削除", "/comments/#{@comment.id}/destroy", {method:"post"})%>
 <% end %>
 
+
+<p><%= link_to("戻る", "/icebreaks/#{@comment.icebreak_id}") %></p>
 <p><%= link_to("アイスブレイク一覧へ", "/icebreaks") %></p>
 
 
